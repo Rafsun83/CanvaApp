@@ -1,8 +1,5 @@
 import {
-  Badge,
   Button,
-  EmbedCard,
-  Pill,
   Rows,
   Tab,
   TabList,
@@ -10,19 +7,14 @@ import {
   TabPanels,
   Tabs,
   Text,
-  Title,
 } from "@canva/app-ui-kit";
 import { addPage } from "@canva/design";
 import { useIntl } from "react-intl";
 import { getCroppedImageDataUrl } from "utils/cropImage";
-import { useAddElement } from "utils/use_add_element";
+import { templateOneGenerate } from "../../helper/templateOne";
+import { templateThreeGenerate } from "../../helper/templateThree";
 
 export default function AppTabs() {
-  const addElement = useAddElement();
-
-  const handlePillClick = () => {
-    console.log("Click");
-  };
 
   const onClick = async () => {
     const url = getCroppedImageDataUrl(
@@ -59,7 +51,7 @@ export default function AppTabs() {
               },
               top: 0,
               left: 10,
-              height: 160,
+              height: 140,
               width: 300,
               dataUrl:
                 "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAAXNSR0IArs4c6QAAAdRJREFUOE9dlAFrE0EUhGfzM/OLCoJYKoFAqbR0L6UoiKLoT9Pse1Nn3t41NXDcBfa+nZk3e+3z0++eADICJPWAiAAYQAzkCMQYiPgLnv943S4DAL2mAWiGkPvMBHUxCqiFoWeBzohx9p1xBpho6wUs7fn0q5Pck4kCBSiIlQU4JiQKkmMUABMkyNPpZ0cKQgMEkgLD9D+GQbFBzmgkdhOCgvwoyLSzqdkUDau6hOzIUqING5Z2evzeCeyxQQL1PNXY2qpEwOHwmzKzLSytP3zrAPewnQr2FZJ+yUoc6rA9TU0gQQAK8rXDwWq8guRbSFYmnpKB6z3mhLi0x09fOqXEgFLjHf6zlAp2qtKEbMt2uLSH2+eCcPYkVaK3oNSUph1lpfJJnUZNZXJ/7D2h6ejlNZcJmhkpk1JSIVePViVY2t3hvpOoTES+zGZ2x32REvdmAhws0Yil3d7czcZOJbYygclqrcatcBXyeiRSjVVfuLTj+6N74qloZwOmHUx7Lt7YlCj0Oj+EG3t4d+hE7uFd62o+oVpQMAW7KvDBNIRQc93Yj1fXr41dXxR/wtbjsDXYNi4gsnNz9aHDxUvfvDuAnXbTd8ZBj2qypjQrsAPr7Pz7vQBKj7pE+J6clQAAAABJRU5ErkJggg==",
@@ -70,7 +62,7 @@ export default function AppTabs() {
                 text: "Hello",
                 decorative: false,
               },
-              top: 137,
+              top: 120,
               left: 255,
               height: 40,
               width: 40,
@@ -80,7 +72,7 @@ export default function AppTabs() {
             {
               type: "text",
               children: ["ALEX PAPA"],
-              top: 190,
+              top: 175,
               left: 240,
               fontSize: 8,
               fontWeight: "normal",
@@ -90,7 +82,7 @@ export default function AppTabs() {
             {
               type: "text",
               children: ["17253947645"],
-              top: 200,
+              top: 185,
               left: 240,
               fontSize: 8,
               fontWeight: "normal",
@@ -103,17 +95,17 @@ export default function AppTabs() {
         {
           type: "text",
           children: ["VAUCLUSE"],
-          top: 200,
+          top: 180,
           left: 10,
           fontSize: 7,
-          fontWeight: "normal",
+          fontWeight: "bold",
           width: 100,
           textAlign: "start",
         },
         {
           type: "text",
           children: ["3 MAYALL AVENUE"],
-          top: 210,
+          top: 190,
           left: 10,
           fontSize: 7,
           width: 100,
@@ -121,7 +113,7 @@ export default function AppTabs() {
         },
         {
           type: "group",
-          top: 224,
+          top: 204,
           left: 10,
           width: 50,
           height: "auto",
@@ -184,44 +176,45 @@ export default function AppTabs() {
         },
         {
           type: "group",
-          top: 226,
-          left: 10,
-          width: 70,
-          height: "auto",
+          top: 220,
+          left: 0,
+          width: 120,
+          height: 25,
           children: [
             {
-              type: "shape",
-              top: 220,
-              left: 10,
-              width: 60,
+              top: 0,
+              left: 0,
+              width: 120,
               height: 25,
-              viewBox: {
-                top: 0,
-                left: 10,
-                width: 60,
-                height: 23,
-              },
+              type: "shape",
               paths: [
                 {
-                  d: "M10 10 h80 a10 10 0 0 1 10 10 v30 a10 10 0 0 1 -10 10 h-80 a10 10 0 0 1 -10 -10 v-30 a10 10 0 0 1 10 -10 Z",
+                  d: "M 12.5 0 H 107.5 A 12.5 12.5 0 0 1 120 12.5 V 12.5 A 12.5 12.5 0 0 1 107.5 25 H 12.5 A 12.5 12.5 0 0 1 0 12.5 V 12.5 A 12.5 12.5 0 0 1 12.5 0 Z",
                   fill: {
-                    color: "#ff0099",
+                    color: "#F87F0F",
                   },
                 },
               ],
+              viewBox: {
+                top: 0,
+                left: 0,
+                width: 120,
+                height: 25,
+              },
             },
             {
               type: "text",
-              children: ["Enquery Now"],
-              top: 235,
-              left: 20,
-              fontSize: 6,
-              width: 70,
-              textAlign: "start",
-              color: "#f1f1f1",
+              children: ["Enquire Now"],
+              top: 6,
+              left: 0,
+              fontSize: 12,
+              width: 120,
+              textAlign: "center",
+              color: "#ffffff",
             },
           ],
         },
+
       ],
     });
   };
@@ -402,48 +395,27 @@ export default function AppTabs() {
           <TabPanels>
             <TabPanel id="template">
               <Rows spacing="2u">
-                <Rows spacing="1u">
-                  <Pill
-                    ariaLabel="a pill"
-                    onClick={handlePillClick}
-                    // start={() => {}}
-                    text="Configure Your Branding"
-                    // selected
-                    showTooltip={{
-                      disabled: true,
-                    }}
-                    role="button"
-                  />
-                </Rows>
-
-                <Rows spacing="0.5u">
-                  <Title size="xsmall">Property Template</Title>
-                  <Text size="small">First Template Showing Here.</Text>
-                  <EmbedCard
-                    ariaLabel="Add embed to design"
-                    bottomEnd={<Badge text="custom" tone="contrast" />}
-                    description="Puppyhood"
-                    onClick={() => {}}
-                    onDragStart={() => {}}
-                    thumbnailUrl="https://www.canva.dev/example-assets/images/puppyhood.jpg"
-                    title="Heartwarming Chatter: Adorable Conversation with a puppy"
-                  />
-                </Rows>
-
-                <Button variant="primary" onClick={onClickTemplate4} stretch>
-                  {intl.formatMessage({
-                    defaultMessage: "Template 4",
-                    description:
-                      "Button text to do something cool. Creates a new text element when pressed.",
-                  })}
+                <Button variant="primary" onClick={templateOneGenerate} stretch>
+                  Template 1 (300 * 600)
                 </Button>
                 <Button variant="primary" onClick={onClick} stretch>
                   {intl.formatMessage({
-                    defaultMessage: "Template 2",
+                    defaultMessage: "Template 2 (300 * 250)",
                     description:
                       "Button text to do something cool. Creates a new text element when pressed.",
                   })}
                 </Button>
+                <Button variant="primary" onClick={templateThreeGenerate} stretch>
+                  Template 3 (970 * 250)
+                </Button>
+                <Button variant="primary" onClick={onClickTemplate4} stretch>
+                  {intl.formatMessage({
+                    defaultMessage: "Template 4 (600 * 600)",
+                    description:
+                      "Button text to do something cool. Creates a new text element when pressed.",
+                  })}
+                </Button>
+
               </Rows>
             </TabPanel>
             <TabPanel id="videos">
