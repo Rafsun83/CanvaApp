@@ -235,16 +235,6 @@ export default function AppTabs() {
 
     await addPage({
       elements: [
-        //  {
-        //    type: "text",
-        //    children: ["BRADFIELD BADGERFOX"],
-        //    top: 10,
-        //    left: 0,
-        //    fontSize: 18,
-        //    fontWeight: "semibold",
-        //    width: 300,
-        //    textAlign: "center",
-        //  },
         {
           type: "group",
           top: 0,
