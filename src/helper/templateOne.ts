@@ -5,6 +5,7 @@ export const templateOneGenerate = async () => {
     elements: [
       {
         type: "text",
+        fontRef: "YAFdJgT0SHI:0",
         children: ["BRADFIELD BADGERFOX"],
         top: 10,
         left: 0,
@@ -16,7 +17,7 @@ export const templateOneGenerate = async () => {
       {
         type: "image",
         altText: {
-          text: "Hello",
+          text: "Property Image",
           decorative: false,
         },
         top: 40,
@@ -29,6 +30,7 @@ export const templateOneGenerate = async () => {
       {
         type: "text",
         children: ["VAUCLUSE"],
+        fontRef: "YAFdJgT0SHI:0",
         top: 360,
         left: 10,
         fontSize: 18,
@@ -39,6 +41,7 @@ export const templateOneGenerate = async () => {
       {
         type: "text",
         children: ["3 MYALL AVENUE"],
+        fontRef: "YAFdJgT0SHI:0",
         top: 380,
         left: 10,
         fontSize: 18,
@@ -56,7 +59,7 @@ export const templateOneGenerate = async () => {
             type: "image",
             top: 0,
             left: 0,
-            altText: { text: "alt", decorative: false },
+            altText: { text: "bed icon", decorative: false },
             dataUrl:
               "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtYmVkIj48cGF0aCBkPSJNMiA0djE2Ii8+PHBhdGggZD0iTTIgOGgxOGEyIDIgMCAwIDEgMiAydjEwIi8+PHBhdGggZD0iTTIgMTdoMjAiLz48cGF0aCBkPSJNNiA4djkiLz48L3N2Zz4=",
             height: 15,
@@ -64,6 +67,7 @@ export const templateOneGenerate = async () => {
           },
           {
             type: "text",
+            fontRef: "YAFdJgT0SHI:0",
             children: ["3"],
             top: 0,
             left: 15,
@@ -74,7 +78,7 @@ export const templateOneGenerate = async () => {
             type: "image",
             top: 0,
             left: 25,
-            altText: { text: "adadsda", decorative: false },
+            altText: { text: "bath icon", decorative: false },
             dataUrl:
               "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtYmF0aCI+PHBhdGggZD0iTTEwIDQgOCA2Ii8+PHBhdGggZD0iTTE3IDE5djIiLz48cGF0aCBkPSJNMiAxMmgyMCIvPjxwYXRoIGQ9Ik03IDE5djIiLz48cGF0aCBkPSJNOSA1IDcuNjIxIDMuNjIxQTIuMTIxIDIuMTIxIDAgMCAwIDQgNXYxMmEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJ2LTUiLz48L3N2Zz4=",
             height: 15,
@@ -82,6 +86,7 @@ export const templateOneGenerate = async () => {
           },
           {
             type: "text",
+            fontRef: "YAFdJgT0SHI:0",
             children: ["3"],
             top: 0,
             left: 40,
@@ -92,7 +97,7 @@ export const templateOneGenerate = async () => {
             type: "image",
             top: 0,
             left: 50,
-            altText: { text: "adadsda", decorative: false },
+            altText: { text: "car icon", decorative: false },
             dataUrl:
               "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtY2FyLWZyb250Ij48cGF0aCBkPSJtMjEgOC0yIDItMS41LTMuN0EyIDIgMCAwIDAgMTUuNjQ2IDVIOC40YTIgMiAwIDAgMC0xLjkwMyAxLjI1N0w1IDEwIDMgOCIvPjxwYXRoIGQ9Ik03IDE0aC4wMSIvPjxwYXRoIGQ9Ik0xNyAxNGguMDEiLz48cmVjdCB3aWR0aD0iMTgiIGhlaWdodD0iOCIgeD0iMyIgeT0iMTAiIHJ4PSIyIi8+PHBhdGggZD0iTTUgMTh2MiIvPjxwYXRoIGQ9Ik0xOSAxOHYyIi8+PC9zdmc+",
             height: 15,
@@ -100,6 +105,7 @@ export const templateOneGenerate = async () => {
           },
           {
             type: "text",
+            fontRef: "YAFdJgT0SHI:0",
             children: ["3"],
             top: 0,
             left: 65,
@@ -139,7 +145,7 @@ export const templateOneGenerate = async () => {
           {
             type: "image",
             altText: {
-              text: "Hello",
+              text: "agent image",
               decorative: false,
             },
             top: 0,
@@ -151,18 +157,19 @@ export const templateOneGenerate = async () => {
           },
           {
             type: "text",
+            fontRef: "YAFdJgT0SHI:0",
             children: ["ALEX PAPA"],
-            top: 25,
+            top: 24,
             left: 100,
-            fontSize: 10,
-            fontWeight: "bold",
+            fontSize: 12,
             width: 150,
             textAlign: "start",
           },
           {
             type: "text",
+            fontRef: "YAFdJgT0SHI:0",
             children: ["+0414 775 816"],
-            top: 37,
+            top: 39,
             left: 100,
             fontSize: 8,
             width: 150,
@@ -200,6 +207,7 @@ export const templateOneGenerate = async () => {
           },
           {
             type: "text",
+            fontRef: "YAFdJgT0SHI:0",
             children: ["Enquire Now"],
             top: 6,
             left: 0,
