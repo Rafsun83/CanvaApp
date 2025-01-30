@@ -28,6 +28,7 @@ export default function AppTabs() {
       elements: [
         {
           type: "text",
+          fontRef: "YAFdtQi73Xs:0",
           children: ["BRADFIELD BADGERFOX"],
           top: 10,
           left: 0,
@@ -71,6 +72,7 @@ export default function AppTabs() {
             },
             {
               type: "text",
+              fontRef: "YAFdtQi73Xs:0",
               children: ["ALEX PAPA"],
               top: 195,
               left: 235,
@@ -81,6 +83,7 @@ export default function AppTabs() {
             },
             {
               type: "text",
+              fontRef: "YAFdtQi73Xs:0",
               children: ["17253947645"],
               top: 205,
               left: 235,
@@ -94,6 +97,7 @@ export default function AppTabs() {
 
         {
           type: "text",
+          fontRef: "YAFdtQi73Xs:0",
           children: ["VAUCLUSE"],
           top: 187,
           left: 10,
@@ -104,6 +108,7 @@ export default function AppTabs() {
         },
         {
           type: "text",
+          fontRef: "YAFdtQi73Xs:0",
           children: ["3 MAYALL AVENUE"],
           top: 197,
           left: 10,
@@ -120,6 +125,7 @@ export default function AppTabs() {
           children: [
             {
               type: "text",
+              fontRef: "YAFdtQi73Xs:0",
               children: ["5"],
               top: 0,
               left: 0,
@@ -138,6 +144,7 @@ export default function AppTabs() {
             },
             {
               type: "text",
+              fontRef: "YAFdtQi73Xs:0",
               children: ["4"],
               top: 0,
               left: 40,
@@ -156,6 +163,7 @@ export default function AppTabs() {
             },
             {
               type: "text",
+              fontRef: "YAFdtQi73Xs:0",
               children: ["2"],
               top: 0,
               left: 73,
@@ -204,6 +212,7 @@ export default function AppTabs() {
             },
             {
               type: "text",
+              fontRef: "YAFdtQi73Xs:0",
               children: ["Enquire Now"],
               top: 4,
               left: 5,
@@ -265,6 +274,7 @@ export default function AppTabs() {
             },
             {
               type: "text",
+              fontRef: "YAFdtQi73Xs:0",
               children: ["ALEX PAPA"],
               top: 535,
               left: 440,
@@ -275,6 +285,7 @@ export default function AppTabs() {
             },
             {
               type: "text",
+              fontRef: "YAFdtQi73Xs:0",
               children: ["0441394745"],
               top: 560,
               left: 440,
@@ -288,6 +299,7 @@ export default function AppTabs() {
 
         {
           type: "text",
+          fontRef: "YAFdtQi73Xs:0",
           children: ["VAUCLUSE"],
           top: 485,
           left: 25,
@@ -299,6 +311,7 @@ export default function AppTabs() {
         },
         {
           type: "text",
+          fontRef: "YAFdtQi73Xs:0",
           children: ["3 MAYALL AVENUE"],
           top: 515,
           left: 25,
@@ -306,70 +319,6 @@ export default function AppTabs() {
           width: 200,
           textAlign: "start",
         },
-        // {
-        //   type: "group",
-        //   top: 555,
-        //   left: 20,
-        //   width: 120,
-        //   height: "auto",
-        //   children: [
-
-        //     {
-        //       type: "text",
-        //       children: ["5"],
-        //       top: 0,
-        //       left: 0,
-        //       fontSize: 12,
-        //       textAlign: "start",
-        //     },
-        //     {
-        //       type: "image",
-        //       top: 0,
-        //       left: 8,
-        //       altText: { text: "adadsda", decorative: false },
-        //       dataUrl:
-        //         "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWJlZCI+PHBhdGggZD0iTTIgNHYxNiIvPjxwYXRoIGQ9Ik0yIDhoMThhMiAyIDAgMCAxIDIgMnYxMCIvPjxwYXRoIGQ9Ik0yIDE3aDIwIi8+PHBhdGggZD0iTTYgOHY5Ii8+PC9zdmc+",
-        //       height: 15,
-        //       width: 15,
-        //     },
-        //     {
-        //       type: "text",
-        //       children: ["4"],
-        //       top: 0,
-        //       left: 30,
-        //       fontSize: 12,
-        //       textAlign: "start",
-        //     },
-        //     {
-        //       type: "image",
-        //       top: 0,
-        //       left: 38,
-        //       altText: { text: "adadsda", decorative: false },
-        //       dataUrl:
-        //         "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIgY2xhc3M9Imx1Y2lkZSBsdWNpZGUtYmF0aCI+PHBhdGggZD0iTTEwIDQgOCA2Ii8+PHBhdGggZD0iTTE3IDE5djIiLz48cGF0aCBkPSJNMiAxMmgyMCIvPjxwYXRoIGQ9Ik03IDE5djIiLz48cGF0aCBkPSJNOSA1IDcuNjIxIDMuNjIxQTIuMTIxIDIuMTIxIDAgMCAwIDQgNXYxMmEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJ2LTUiLz48L3N2Zz4=",
-        //       height: 15,
-        //       width: 15,
-        //     },
-        //     {
-        //       type: "text",
-        //       children: ["2"],
-        //       top: 0,
-        //       left: 60,
-        //       fontSize: 12,
-        //       textAlign: "start",
-        //     },
-        //     {
-        //       type: "image",
-        //       top: 0,
-        //       left: 68,
-        //       altText: { text: "adadsda", decorative: false },
-        //       dataUrl:
-        //         "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNhci1mcm9udCI+PHBhdGggZD0ibTIxIDgtMiAyLTEuNS0zLjdBMiAyIDAgMCAwIDE1LjY0NiA1SDguNGEyIDIgMCAwIDAtMS45MDMgMS4yNTdMNSAxMCAzIDgiLz48cGF0aCBkPSJNNyAxNGguMDEiLz48cGF0aCBkPSJNMTcgMTRoLjAxIi8+PHJlY3Qgd2lkdGg9IjE4IiBoZWlnaHQ9IjgiIHg9IjMiIHk9IjEwIiByeD0iMiIvPjxwYXRoIGQ9Ik01IDE4djIiLz48cGF0aCBkPSJNMTkgMTh2MiIvPjwvc3ZnPg==",
-        //       height: 15,
-        //       width: 15,
-        //     },
-        //   ],
-        // },
         {
           type: "group",
           top: 555,
@@ -379,6 +328,7 @@ export default function AppTabs() {
           children: [
             {
               type: "text",
+              fontRef: "YAFdtQi73Xs:0",
               children: ["5"],
               top: 0,
               left: 0,
@@ -397,6 +347,7 @@ export default function AppTabs() {
             },
             {
               type: "text",
+              fontRef: "YAFdtQi73Xs:0",
               children: ["4"],
               top: 0,
               left: 38,
@@ -415,6 +366,7 @@ export default function AppTabs() {
             },
             {
               type: "text",
+              fontRef: "YAFdtQi73Xs:0",
               children: ["2"],
               top: 0,
               left: 73,
