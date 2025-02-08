@@ -102,7 +102,7 @@ export default function AppTabs() {
         {
           type: "text",
           fontRef: "${headingFontRef}",
-          children: ["VAUCLUSE"],
+          children: ["${suburb.name}"],
           top: 187,
           left: 10,
           fontSize: 8,
@@ -299,7 +299,7 @@ export default function AppTabs() {
         {
           type: "text",
           fontRef: "${headingFontRef}",
-          children: ["VAUCLUSE"],
+          children: ["${suburb.name}"],
           top: 485,
           left: 25,
           fontSize: 20,
